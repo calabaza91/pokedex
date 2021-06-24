@@ -1,25 +1,25 @@
 //PART I D.O.M. Manipulation
 
 // Select the search button pokeball by its HTML Id Attribute
-var searchBtn = document.getElementById('ADD CODE'); // search button pokeball
+var searchBtn = document.getElementById('search-btn'); // search button pokeball
 
 // Select the search field input by its HTML Id Attribute
-var inputField = document.getElementById('ADD CODE'); // search field input
+var inputField = document.getElementById('name-input'); // search field input
 
 // Select the pokemon name screen by it's HTML Id Attribute
-var nameScreen = document.getElementById('ADD CODE'); //pokemon name-screen
+var nameScreen = document.getElementById('name-screen'); //pokemon name-screen
 
 // Select the pokemon image screen by it's HTML Id Attribute
-var imageScreen = document.getElementById('ADD CODE'); // pokemon image screen
+var imageScreen = document.getElementById('main-screen'); // pokemon image screen
 
 // Select the height and weight screen by it's HTML Id Attribute
-var aboutScreen = document.getElementById('ADD CODE'); // about-text screen
+var aboutScreen = document.getElementById('about-screen'); // about-text screen
 
 // Select the type screen by it's HTML Id Attribute
-var typeScreen = document.getElementById('ADD CODE'); // pokemon type screen
+var typeScreen = document.getElementById('type-screen'); // pokemon type screen
 
 // Select the pokemon id number screen by it's HTML Id Attribute
-var idScreen = document.getElementById('ADD CODE'); // pokemon id number screen
+var idScreen = document.getElementById('id-screen'); // pokemon id number screen
 
 //PART II Fetching the Pokemon Data from the PokeAPI
 
