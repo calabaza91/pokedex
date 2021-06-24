@@ -38,7 +38,7 @@ var getPokemonData = (pokemon) => {
             //create a format appropriate pokemon id in order to plug into the pokemon.com image url
             var id = ('00' + data.id).slice(-3);
             //change the background image of the image screen element to the appropriate pokemon image
-            imageScreen.style.backgroundImage = `url('ADD CODE')`;
+            imageScreen.style.backgroundImage = `url('https://assets.pokemon.com/assets/cms2/img/pokedex/full/${id}.png')`;
             //change the text of the name screen element to the appropriate pokemon name
             nameScreen.innerHTML = data.name;
             //change the text of the type screen element to the appropriate pokemon type
