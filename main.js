@@ -59,7 +59,7 @@ var getPokemonData = (pokemon) => {
 //Create an event listner that attaches to the search button poke ball and activates when a user 'clicks' on it!
 //The event listener should call our pokemon data function from PART II
 
-searchBtn.addEventListener('click', () => getPokemonData("ADD CODE"));
+searchBtn.addEventListener('click', () => getPokemonData(inputField.value));
 
 
 // <!-- Copyright (c) 2021 by oryam (https://codepen.io/oryamne/pen/vYKXbgZ)
